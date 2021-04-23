@@ -1,10 +1,10 @@
-# react-native-usePersistedReducer
+# react-native-use-persisted-reducer
 A React Hook for React Native who behave exactly like **useReducer** but persist the state into async storage
 
 #Installation
 
 ````bash
-npm i react-native-usePersistedReducer
+npm i react-native-use-persisted-reducer
 ````
 
 #Usage
