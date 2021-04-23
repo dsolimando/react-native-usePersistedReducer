@@ -1,26 +1,26 @@
 # react-native-use-persisted-reducer
 A React Hook for React Native who behave exactly like **useReducer** but persist the state into async storage
 
-#Installation
+# Installation
 
 ````bash
 npm i react-native-use-persisted-reducer
 ````
 
-#Usage
+# Usage
 
 ````javascript
 const [state, dispatch] = usePersistedReducer(
   {
     persistKey: 'async storage key used', // a unique key for the async storage entry key (Mandatory)
-    whiteList: ['name', 'address'],       // a JS array containing field to persist (Optional) 
+    whiteList: ['name', 'address'],       // a JS array containing fields to persist (Optional) 
   },
   reducer,
   defaultState
 );
 ````
 
-#Comments
+# Comments
 
 * Default state is returned when cache is empty
 * If whiteList is omitted then the whole state is persisted in cache
