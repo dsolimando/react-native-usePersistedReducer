@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "declarationDir": "lib"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

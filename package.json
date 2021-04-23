@@ -1,0 +1,23 @@
+{
+  "name": "react-native-use-persisted-reducer",
+  "description": "useReducer implementation for React Native who persist state in async storage",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.js",
+  "scripts": {
+    "prepublish": "",
+    "babel": "babel src --out-dir lib/ --extensions '.ts','.tsx'",
+    "tsc": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.3",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16"
+  }
+}
