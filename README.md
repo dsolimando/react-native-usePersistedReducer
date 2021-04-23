@@ -10,6 +10,8 @@ npm i @solidx/react-native-use-persisted-reducer
 # Usage
 
 ````javascript
+import { usePersistedReducer } from "@solidx/react-native-use-persisted-reducer/lib";
+
 const [state, dispatch] = usePersistedReducer(
   {
     persistKey: 'async storage key used', // a unique key for the async storage entry key (Mandatory)
