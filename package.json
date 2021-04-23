@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.js",
   "scripts": {
-    "prepublish": "",
+    "prepublish": "rm -rf ./lib; npm run babel; npm run tsc",
     "babel": "babel src --out-dir lib/ --extensions '.ts','.tsx'",
     "tsc": "tsc --project tsconfig.json"
   },
