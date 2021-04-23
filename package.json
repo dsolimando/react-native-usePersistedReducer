@@ -1,5 +1,5 @@
 {
-  "name": "react-native-use-persisted-reducer",
+  "name": "@solidx/react-native-use-persisted-reducer",
   "description": "useReducer implementation for React Native who persist state in async storage",
   "version": "1.0.0",
   "main": "lib/index.js",
